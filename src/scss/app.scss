@@ -27,3 +27,9 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.container {
+  display:grid;
+  grid-template: 1fr 1fr 1fr / repeat(200px, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
